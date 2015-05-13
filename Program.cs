@@ -105,7 +105,7 @@ namespace TruncateFile
             {
                 using (var key = Registry.ClassesRoot.CreateSubKey(RegPath,RegistryKeyPermissionCheck.ReadWriteSubTree))
                 {
-                    key.SetValue(null, String.Format("\"{0}\" -w %1", executablePath));
+                    key.SetValue(null, String.Format("\"{0}\" -w \"%1\"", executablePath));
                 }
             }
             catch (UnauthorizedAccessException)
