@@ -8,4 +8,4 @@ Command line arguments:
 
 -u to remove the integration
 
--w <file1> ... <fileN> to set these files size to zero.
+-w file1 ... fileN to set these files size to zero.
